@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    color: #fff;
+    background-color: #111;
+}
+#box1{
+    height: 250px;
+    width: 250px;
+    background-color: lightskyblue;
+}
+#box2{
+    height: 250px;
+    width: 250px;
+    background-color: lightcoral;
+}
+#box3{
+    height: 250px;
+    width: 250px;
+    background-color: lightgreen;
+}

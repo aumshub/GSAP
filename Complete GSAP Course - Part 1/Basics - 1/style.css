@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: #111;
+}
+
+#box1{
+    height: 300px;
+    width: 300px;
+    background-color: lightcoral;
+}
+#box2{
+    height: 300px;
+    width: 300px;
+    background-color: lightseagreen;
+}
