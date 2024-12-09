@@ -1,0 +1,67 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+html, body {
+height: 100%;
+width: 100%;
+}
+body{
+    overflow-x: hidden ;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url(assets/cloud\ img.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    color: white;
+}
+
+#nav i{
+    font-size: 1.7rem;
+    font-weight: 800;
+}
+#nav h2{
+    font-size: 1.7rem;
+    font-weight: 800;
+}
+
+#full{
+    height: 100%;
+    width: 40%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.314); /* this is necesarry to be under 50 for the effect you can use too as transparent*/
+    backdrop-filter: blur(20px);  /* this filter helps making background blur */
+    padding: 15rem 6rem;
+    right: -40%;
+}
+
+#full h4{
+    font-size: 3rem;
+    margin-bottom: 1.2rem;
+}
+
+#full i{
+    position: absolute;
+    top: 5%;
+    right: 7%;
+    font-weight: 800;
+    font-size: 1.2rem;
+    background-color: white;
+    border-radius: 50%;
+    padding: 0.4rem;
+}
+i:hover{
+    cursor: pointer;
+}
